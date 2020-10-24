@@ -1,0 +1,29 @@
+{
+  "name": "extract-emails-from-pdfs",
+  "version": "1.0.0",
+  "description": "Extract a list of email addresses from a folder full of pdf files",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node -r ts-node/register ./index.ts"
+  },
+  "author": "Bert Verhelst",
+  "license": "MIT",
+  "dependencies": {
+    "@types/async": "^3.2.3",
+    "@types/fs-extra": "^9.0.2",
+    "@types/glob": "^7.1.3",
+    "@types/lodash": "^4.14.162",
+    "@types/pdf-image": "^2.0.0",
+    "async": "^3.2.0",
+    "cli-progress": "^3.8.2",
+    "extract-email-address": "^1.4.0",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "lodash": "^4.17.20",
+    "node-tesseract-ocr": "^2.0.0",
+    "pdf-poppler": "^0.2.1",
+    "tesseract.js": "^2.1.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}

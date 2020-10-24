@@ -1,0 +1,9 @@
+emails.txt
+
+pdfs/**/*
+!pdfs/.gitkeep
+
+pngs/**/*
+
+node_modules/
+.idea/
