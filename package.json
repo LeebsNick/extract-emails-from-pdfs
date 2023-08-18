@@ -19,7 +19,7 @@
     "extract-email-address": "^1.4.0",
     "fs-extra": "^9.0.1",
     "glob": "^7.1.6",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "node-tesseract-ocr": "^2.0.0",
     "pdf-poppler": "^0.2.1",
     "tesseract.js": "^2.1.4",
